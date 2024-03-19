@@ -1,0 +1,6 @@
+[submodule "messaging-app-frontend"]
+	path = messaging-app-frontend
+	url = https://github.com/Mark-Elliott5/messaging-app-frontend.git
+[submodule "messaging-app-backend"]
+	path = messaging-app-backend
+	url = https://github.com/Mark-Elliott5/messaging-app-backend.git

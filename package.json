@@ -1,0 +1,13 @@
+{
+  "name": "messaging-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "backend:install": "cd messaging-app-backend && pnpm install",
+    "backend:build": "cd messaging-app-backend && pnpm run build",
+    "start": "node ./dist/app",
+    "frontend:install": "cd messaging-app-frontend && pnpm install",
+    "frontend:build": "cd messaging-app-frontend && pnpm run build",
+    "build": "pnpm run backend:install && pnpm run backend:build && pnpm run frontend:install && pnpm run frontend:build"
+  }
+}
